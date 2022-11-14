@@ -26,7 +26,7 @@ call scoop install postman mongodb-compass
 
 call ECHO Installing programming languages ...
 
-call scoop install python nodejs mongodb latex
+call scoop install python nodejs mongodb latex deno
 
 call ECHO Installing IDEs ...
 
@@ -105,3 +105,5 @@ call code --install-extension ms-toolsai.vscode-jupyter-slideshow
 
 call code --install-extension ms-python.vscode-pylance
 call code --install-extension ms-python.python
+
+call code --install-extension denoland.vscode-deno
