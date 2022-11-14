@@ -1,6 +1,62 @@
 @ECHO OFF 
 
-ECHO Installing VSCode extensions ...
+call ECHO Installing git ...
+
+call scoop install git
+
+call ECHO Updating scoop ...
+
+call scoop update
+
+call ECHO Adding extras manifest ...
+
+call scoop bucket add extras
+
+call ECHO Adding nonportable manifest ...
+
+call scoop bucket add nonportable
+
+call ECHO Installing utilities ...
+
+call scoop install 7zip sumatrapdf curl sudo openssh coreutils grep sed less pandoc
+
+call ECHO Installing programming utilities ...
+
+call scoop install postman mongodb-compass
+
+call ECHO Installing programming languages ...
+
+call scoop install python nodejs mongodb latex
+
+call ECHO Installing IDEs ...
+
+call scoop install vscode typora rstudio sql-server-management-studio-np notepadplusplus texmaker
+
+call ECHO Installing devops ...
+
+call scoop install docker
+
+call ECHO Installing browsers ...
+
+call scoop install firefox opera-gx
+
+call choco install googlechrome
+
+call ECHO Installing communications ...
+
+call scoop install discord skype telegram whatsapp
+
+call ECHO Installing entertainment ...
+
+call scoop install vlc spotify tixati
+
+call ECHO Installing design ...
+
+call scoop install inkscape
+
+call choco install gimp
+
+call ECHO Installing VSCode extensions ...
 
 call code --install-extension dougfinke.vscode-pandoc
 call code --install-extension kzvi.pandoc-markdown-preview
