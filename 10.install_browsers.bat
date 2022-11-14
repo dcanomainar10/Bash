@@ -2,4 +2,6 @@
 
 ECHO Installing browsers ...
 
-scoop install firefox opera-gx
+call scoop install firefox opera-gx
+
+call choco install googlechrome

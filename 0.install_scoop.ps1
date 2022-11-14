@@ -1,2 +1,2 @@
-iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
-set-executionpolicy unrestricted -s cu
+iwr -useb get.scoop.sh -outfile 'install_scoop.ps1'
+.\install.ps1 -RunAsAdmin

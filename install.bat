@@ -1,4 +1,8 @@
-Powershell.exe -executionpolicy remotesigned -File 0.install_scoop.ps1
+call pushd "%~dp0
+
+Powershell.exe -executionpolicy remotesigned -File 0.install_chocolatey.ps1
+
+Powershell.exe -executionpolicy remotesigned -File 0.install_scoop.ps1 -RunAsAdmin
 
 call 1.git.bat
 
