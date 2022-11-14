@@ -3,5 +3,3 @@
 ECHO Updating scoop ...
 
 scoop update
-
-PAUSE

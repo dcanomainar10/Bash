@@ -3,5 +3,3 @@
 ECHO Installing devops ...
 
 scoop install docker
-
-PAUSE

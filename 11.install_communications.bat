@@ -3,5 +3,3 @@
 ECHO Installing communications ...
 
 scoop install discord skype
-
-PAUSE

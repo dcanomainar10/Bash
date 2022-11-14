@@ -3,5 +3,3 @@
 ECHO Installing design ...
 
 scoop install inkscape
-
-PAUSE

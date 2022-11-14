@@ -3,5 +3,3 @@
 ECHO Installing git ...
 
 scoop install git
-
-PAUSE
