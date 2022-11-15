@@ -1,3 +1,4 @@
 # Ignore temporary file for install scoop with administrator privileges.
 
 install_scoop.ps1
+output.log
