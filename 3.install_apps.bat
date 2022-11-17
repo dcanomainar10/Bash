@@ -26,7 +26,7 @@ call scoop install postman mongodb-compass
 
 call ECHO Installing programming languages ...
 
-call scoop install python nodejs mongodb latex deno
+call scoop install python nodejs mongodb latex deno rust
 
 call ECHO Installing IDEs ...
 
