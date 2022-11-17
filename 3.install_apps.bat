@@ -107,3 +107,5 @@ call code --install-extension ms-python.vscode-pylance
 call code --install-extension ms-python.python
 
 call code --install-extension denoland.vscode-deno
+
+call code --install-extension rust-lang.rust-analyzer
