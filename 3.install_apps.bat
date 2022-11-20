@@ -60,6 +60,10 @@ call ECHO Installing wsl 2.0
 
 call wsl --install --distribution "Ubuntu-20.04"
 
+call ECHO Install New Windows terminal
+
+call choco install microsoft-windows-terminal
+
 call ECHO Installing VSCode extensions ...
 
 call code --install-extension dougfinke.vscode-pandoc
